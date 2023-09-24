@@ -126,3 +126,18 @@ p {
   font-size: 48px;
   text-align: var(--text-align);
 }
+
+@media (max-width: 600px) {
+  body {
+    justify-content: center;
+  }
+  .greeting {
+    font-size: 30px;
+  }
+  .index {
+    font-size: 40px;
+  }
+  .location {
+    font-size: 15px;
+  }
+}
